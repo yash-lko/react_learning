@@ -58,7 +58,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/yash-lko/todo-app.git
 ```
 
 Move into the project folder:
@@ -122,7 +122,7 @@ This project helped practice:
 Add your deployment link here:
 
 ```bash
-https://your-live-demo-link.com
+https://todo-app-react00.netlify.app/
 ```
 
 ---
