@@ -64,7 +64,7 @@ git clone https://github.com/yash-lko/todo-app.git
 Move into the project folder:
 
 ```bash
-cd your-repo-name
+cd todo-app
 ```
 
 Install dependencies:
@@ -118,8 +118,6 @@ This project helped practice:
 ---
 
 ## 🌐 Live Demo
-
-Add your deployment link here:
 
 ```bash
 https://todo-app-react00.netlify.app/
