@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+}
+
+.container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.todo-card{
+    width:100%;
+    max-width:800px;
+    background:#fff;
+ 
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.title{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0f172a;
+    font-size:40px;
+}
+
+.input-wrap{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.input,
+.search-input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    outline:none;
+    font-size:16px;
+}
+
+.input:focus,
+.search-input:focus{
+    border-color:#0f172a;
+}
+
+.add-btn{
+    padding:14px 22px;
+    border:none;
+    background:#0f172a;
+    color:#fff;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.add-btn:hover{
+    background:#1e293b;
+}
+
+.search-wrap{
+    margin-bottom:20px;
+}
+
+.todo-list{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+       max-height:350px;
+    overflow-y: auto;
+}
+
+.todo-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px;
+    background:#f8fafc;
+    border-radius:12px;
+    border:1px solid #e2e8f0;
+}
+
+.todo-text{
+    color:#0f172a;
+    font-size:17px;
+    font-weight:500;
+}
+
+.btn-wrap{
+    display:flex;
+    gap:10px;
+}
+
+.edit-btn{
+    border:none;
+    background:#f59e0b;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.delete-btn{
+    border:none;
+    background:#ef4444;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.edit-btn:hover{
+    background:#d97706;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
+
+.empty-box{
+    text-align:center;
+    padding:40px 0;
+    color:#64748b;
+}
+
+@media(max-width:600px){
+
+    .input-wrap{
+        flex-direction:column;
+    }
+
+    .todo-item{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .btn-wrap{
+        width:100%;
+    }
+
+    .edit-btn,
+    .delete-btn{
+        width:100%;
+    }
+}
