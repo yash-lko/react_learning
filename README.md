@@ -1,16 +1,138 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Todo App built with React.js featuring CRUD operations, localStorage persistence, search functionality, duplicate validation, and beautiful toast notifications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ✅ Add Todos
+* ✏️ Edit Existing Todos
+* ❌ Delete Todos
+* 🔍 Search Todos
+* 💾 localStorage Persistence
+* 🚫 Duplicate Todo Validation
+* ⚠️ Validation Messages with React Toastify
+* 📱 Fully Responsive UI
+* 🎨 Modern Clean Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* React Toastify
+* LocalStorage API
+
+---
+
+## 📸 Preview
+
+### Main Features
+
+* Add and manage daily tasks
+* Search tasks instantly
+* Edit tasks dynamically
+* Persistent storage using browser localStorage
+* Modern responsive card-based UI
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ │    └── Todos.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+Move into the project folder:
+
+```bash
+cd your-repo-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Dependencies
+
+```bash
+npm install react-toastify
+```
+
+---
+
+## 🧠 Concepts Practiced
+
+This project helped practice:
+
+* React Hooks (`useState`, `useEffect`)
+* Controlled Components
+* Derived State
+* Immutable State Updates
+* Array Methods (`map`, `filter`, `some`)
+* LocalStorage Management
+* Component-Based Architecture
+* Form Validation
+* Conditional Rendering
+
+---
+
+## 🎯 Future Improvements
+
+* ✅ Dark Mode
+* ✅ Drag & Drop Todos
+* ✅ Todo Completion Status
+* ✅ Due Dates
+* ✅ Categories & Filters
+* ✅ Backend Integration
+* ✅ Authentication
+
+---
+
+## 🌐 Live Demo
+
+Add your deployment link here:
+
+```bash
+https://your-live-demo-link.com
+```
+
+---
+
+## 👨‍💻 Author
+
+Developed by Yashwant Nishad
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
